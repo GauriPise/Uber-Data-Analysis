@@ -221,3 +221,8 @@ Location Revenue = SUM('Uber'[Booking_Value])
 # ⭐ Conclusion
 
 This project demonstrates end-to-end data analysis, from raw data to actionable insights, using SQL, Python, and Power BI.
+
+---
+# Dashboard Images
+<img src="https://github.com/GauriPise/Uber/blob/main/Screenshot%202026-04-05%20231342.png" width="800"> <br>
+

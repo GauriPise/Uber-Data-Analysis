@@ -218,11 +218,33 @@ Location Revenue = SUM('Uber'[Booking_Value])
 - 🌙 Night demand differs significantly
 
 ---
-# ⭐ Conclusion
+# ⭐ 13. Conclusion
 
 This project demonstrates end-to-end data analysis, from raw data to actionable insights, using SQL, Python, and Power BI.
 
 ---
-# Dashboard Images
-<img src="https://github.com/GauriPise/Uber/blob/main/Screenshot%202026-04-05%20231342.png" width="800"> <br>
+# 14. Dashboard Images
 
+
+### Overview 
+
+
+<img src="https://github.com/GauriPise/Uber/blob/main/Screenshot%202026-04-05%20231342.png" width="1000"> <br>
+
+---
+### Vehicle Analysis
+
+
+<img src="https://github.com/GauriPise/Uber/blob/main/Screenshot%202026-04-05%20231406.png" width="1000"> <br>
+
+---
+### Booking and Location Analysis
+
+
+<img src="https://github.com/GauriPise/Uber/blob/main/Screenshot%202026-04-05%20231440.png" width="1000"> <br>
+
+---
+### Customer and Payment Analysis
+
+
+<img src="https://github.com/GauriPise/Uber/blob/main/Screenshot%202026-04-05%20231534.png" width="1000"> <br>

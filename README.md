@@ -229,19 +229,19 @@ This project demonstrates end-to-end data analysis, from raw data to actionable 
 ### Overview 
 
 
-<img src="https://github.com/GauriPise/Uber/blob/main/Screenshot%202026-04-05%20231342.png" width="1000"> <br>
+<img src="https://github.com/GauriPise/Uber-Data-Analysis/blob/main/Screenshot%202026-04-05%20231342.png" width="1000"> <br>
 
 ---
 ### Vehicle Analysis
 
 
-<img src="https://github.com/GauriPise/Uber/blob/main/Screenshot%202026-04-05%20231406.png" width="1000"> <br>
+<img src="https://github.com/GauriPise/Uber-Data-Analysis/blob/main/Screenshot%202026-04-05%20231406.png" width="1000"> <br>
 
 ---
 ### Booking and Location Analysis
 
 
-<img src="https://github.com/GauriPise/Uber/blob/main/Screenshot%202026-04-05%20231440.png" width="1000"> <br>
+<img src="https://github.com/GauriPise/Uber-Data-Analysis/blob/main/Screenshot%202026-04-05%20231440.png" width="1000"> <br>
 
 ---
 ### Customer and Payment Analysis

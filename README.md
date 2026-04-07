@@ -52,8 +52,6 @@ The dataset contains ride-level transactional data with the following features:
 | Payment_Type      | Cash / Online |
 | Driver_ID         | Unique driver identifier |
 
----
-
 
 ---
 
@@ -64,7 +62,7 @@ The dataset contains ride-level transactional data with the following features:
 - Standardized column names (removed spaces, used `_`)  
 - Converted date/time columns to proper format  
 
----
+
 
 ## Step 2: Feature Engineering
 
@@ -79,19 +77,20 @@ FROM uber;
 ### Extract Hour (Python)
 df['Hour'] = pd.to_datetime(df['Booking_Time']).dt.hour
 
----
+
 
 ## Step 3: Create Day / Night Flag
 df['Day_Night'] = df['Hour'].apply(lambda x: 'Day' if 6 <= x < 18 else 'Night')
 
----
+
 ## Step 4: Data Validation
 Checked revenue consistency
 Removed outliers
 Standardized booking status values
 
+
 ---
-## Step 5. DAX Measures (Power BI)
+# 📐4. DAX Measures (Power BI)
 ### Total Bookings
 Total Bookings = COUNT('Uber'[Booking_ID])
 ### Total Revenue
@@ -105,29 +104,120 @@ DIVIDE(
 ### Average Ride Value
 Avg Ride Value = AVERAGE('Uber'[Booking_Value])
 
----
-
-## 📊 6. Key KPI Measures
-📊 Total Bookings
-💰 Total Revenue
-📉 Average Ride Value
-❌ Cancellation Rate
-📏 Total Distance
 
 ---
-## 📍 7. Location-Based Measures
+
+# 📊 5. Key KPI Measures
+- 📊 Total Bookings
+- 💰 Total Revenue
+- 📉 Average Ride Value
+- ❌ Cancellation Rate
+- 📏 Total Distance
+
+
+---
+# 📍 6. Location-Based Measures
 ### Pickup Count
 Pickup Count = COUNT('Uber'[Pickup_Location])
 ### Revenue by Location
 Location Revenue = SUM('Uber'[Booking_Value])
 
+
 ---
-## 🌗 8. Day / Night Flag
-Day: 6 AM – 6 PM
-Night: 6 PM – 6 AM
+# 🌗 7. Day / Night Flag
+- Day: 6 AM – 6 PM
+- Night: 6 PM – 6 AM
 
 ## Used for:
 
-Demand analysis
-Driver allocation
-Revenue comparison
+- Demand analysis
+- Driver allocation
+- Revenue comparison
+
+---
+# 📊 8. Dashboard Pages & Visualizations
+## 1️⃣ Overview Page
+
+### KPIs:
+
+- Total Bookings
+- Revenue
+- Avg Ride Value
+- Cancellation Rate
+
+### Charts:
+
+- Booking trend (Line chart)
+- Booking status (Donut chart)
+## 2️⃣ Location Analysis
+
+### Charts:
+
+- Top pickup locations (Bar chart)
+- Revenue by location
+
+### Insights:
+
+- High-demand areas
+- Revenue concentration
+## 3️⃣ Time Analysis
+
+### Charts:
+
+- Bookings by hour
+- Day vs Night comparison
+## 4️⃣ Cancellation Analysis
+
+### Charts:
+
+- Cancellation by location
+- Cancellation trends
+
+---
+# 🔍 9. Drill-Down & Interactivity
+### Drill-Down Features:
+- Date → Month → Day
+- Location → Area
+### Filters (Slicers):
+- Date
+- Location
+- Booking Status
+### Interactivity:
+-Cross-filtering between visuals
+-Dynamic filtering across pages
+
+
+---
+# ⚡ 10. Performance Optimization
+- Removed unnecessary columns
+- Optimized DAX measures
+- Reduced number of visuals per page
+- Used aggregated data
+
+---
+# 🚀 11. How to Reproduce / Deliverables
+### Steps:
+- Load dataset into SQL / Python
+- Perform data cleaning & transformation
+- Create Power BI dashboard
+- Add KPIs and visuals
+- Apply filters and interactivity
+### 📦 Deliverables
+- ✅ SQL Queries
+- ✅ Python Notebook
+- ✅ Power BI Dashboard
+- ✅ Insights Report
+
+
+---
+# 📈 12. Business Insights & Recommendations
+- 📊 Key Insights
+- 🚀 Peak bookings during evening hours
+- 📍 Revenue concentrated in top locations
+- ❌ High cancellations in specific zones
+- 🌙 Night demand differs significantly
+
+---
+# ⭐ Conclusion
+
+This project demonstrates end-to-end data analysis, from raw data to actionable insights, using SQL, Python, and Power BI.

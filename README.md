@@ -1,6 +1,4 @@
-# 🚗 Uber Data Analysis Project
-
----
+# 🚗 Uber Data Analysis 
 
 ## 📑 Table of Contents
 
@@ -248,3 +246,37 @@ This project demonstrates end-to-end data analysis, from raw data to actionable 
 
 
 <img src="https://github.com/GauriPise/Uber/blob/main/Screenshot%202026-04-05%20231534.png" width="1000"> <br>
+
+## Python Images
+
+<img src="https://github.com/GauriPise/Uber/blob/main/Screenshot 2026-04-05 230713.png" width="1000"> <br>
+
+<img src="https://github.com/GauriPise/Uber/blob/main/Screenshot 2026-04-05 230741.png" width="1000"> <br>
+
+<img src="https://github.com/GauriPise/Uber/blob/main/Screenshot 2026-04-05 230843.png" width="1000"> <br>
+
+<img src="https://github.com/GauriPise/Uber/blob/main/Screenshot 2026-04-05 230859.png" width="1000"> <br>
+
+<img src="https://github.com/GauriPise/Uber/blob/main/Screenshot 2026-04-05 230913.png" width="1000"> <br>
+
+<img src="https://github.com/GauriPise/Uber/blob/main/Screenshot 2026-04-05 231012.png" width="1000"> <br>
+
+<img src="https://github.com/GauriPise/Uber/blob/main/Screenshot 2026-04-05 231038.png" width="1000"> <br>
+
+<img src="https://github.com/GauriPise/Uber/blob/main/Screenshot 2026-04-05 231052.png" width="1000"> <br>
+
+<img src="https://github.com/GauriPise/Uber/blob/main/Screenshot 2026-04-05 231106.png" width="1000"> <br>
+
+<img src="https://github.com/GauriPise/Uber/blob/main/Screenshot 2026-04-05 231118.png" width="1000"> <br>
+
+---
+
+## SQL Images
+
+<img src="https://github.com/GauriPise/Uber/blob/main/Screenshot 2026-04-05 231155.png" width="1000"> <br>
+
+<img src="https://github.com/GauriPise/Uber/blob/main/Screenshot 2026-04-05 231209.png" width="1000"> <br>
+
+<img src="https://github.com/GauriPise/Uber/blob/main/Screenshot 2026-04-05 231227.png" width="1000"> <br>
+
+<img src="https://github.com/GauriPise/Uber/blob/main/Screenshot 2026-04-05 231240.png" width="1000"> <br>
